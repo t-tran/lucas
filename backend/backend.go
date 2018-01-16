@@ -3,9 +3,9 @@ package backend
 import (
 	"net/http"
 	"github.com/gorilla/mux"
-	"github.com/ringtail/lucas/backend/handlers"
+	"github.com/t-tran/lucas/backend/handlers"
 	"golang.org/x/net/context"
-	"github.com/ringtail/lucas/backend/types"
+	"github.com/t-tran/lucas/backend/types"
 	log "github.com/Sirupsen/logrus"
 )
 

@@ -2,9 +2,9 @@ package handlers
 
 import (
 	"net/http"
-	"github.com/ringtail/lucas/backend/services"
+	"github.com/t-tran/lucas/backend/services"
 	"encoding/json"
-	"github.com/ringtail/lucas/backend/types"
+	"github.com/t-tran/lucas/backend/types"
 	log "github.com/Sirupsen/logrus"
 )
 

@@ -15,8 +15,8 @@ package main
  */
 
 import (
-	"github.com/ringtail/lucas/cmd"
-	"github.com/ringtail/lucas/backend/types"
+	"github.com/t-tran/lucas/cmd"
+	"github.com/t-tran/lucas/backend/types"
 	"flag"
 	"fmt"
 	"os"
