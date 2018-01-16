@@ -1,6 +1,5 @@
 # lucas
 <p align="center">
-    <img width="400"  src="lucas-logo.png">
   <p align="center">etcd v3 key value browser</p>
 </p>
 

@@ -11,8 +11,8 @@ const HOME_PAGE = `
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css"/>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="http://t-tran-lucas.oss-cn-beijing.aliyuncs.com/index.js"></script>
-    <link rel="stylesheet" href="http://t-tran-lucas.oss-cn-beijing.aliyuncs.com/index.css"/>
+    <script src="/static/index.js"></script>
+    <link rel="stylesheet" href="/static/index.css"/>
     <title>Lucas</title>
 </head>
 <body ng-app="app">

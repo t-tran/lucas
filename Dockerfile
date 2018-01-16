@@ -17,4 +17,5 @@ FROM alpine
 WORKDIR /app
 EXPOSE 8080
 COPY --from=build-env /src/github.com/t-tran/lucas/app /app/
+COPY --from=build-env /src/github.com/t-tran/lucas/frontend/static/ /app/static/
 CMD ["./app","run"]

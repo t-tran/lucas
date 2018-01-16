@@ -17,6 +17,8 @@ func (ls *LucasServer) Start(opts *types.Opts) {
 	mux := http.NewServeMux()
 	mux.HandleFunc("/", handlers.IndexHandler)
 	mux.HandleFunc("/store", handlers.StoreHandler)
+	mux.HandleFunc("/static/index.css", handlers.CssHandler)
+	mux.HandleFunc("/static/index.js", handlers.JsHandler)
 	contextMux := ls.Middleware(opts,mux)
 	log.Fatal(http.ListenAndServe(":8080", contextMux))
 }
